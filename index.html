@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <form class="search" action="submit">
+                <input type="text" name="search" id="search" placeholder="Search">
+            </form>
+        </div>
+        <div>
+            <p class="date">Please enter a location.</p>
+        </div>
+        <section>
+            <div>
+                <h1 class="temperature">00º</h1>
+            </div>
+            <div class="card">
+                <p class="condition">Condition</p>
+            </div>
+            <div class="card">
+                <p class="humidity">Humidity</p>
+            </div>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+    <script>
+        feather.replace();
+    </script>
+</body>
+
+</html>
